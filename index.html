@@ -6,26 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
-  <title>Book List</title>
+  <title>Song List</title>
 </head>
 
 <body>
   <div className="container">
-    <h1 className="add-book">
-      Add Book
+    <h1 className="add-song">
+      Add Song
     </h1>
-    <form id="book-form">
+    <form id="song-form">
       <div>
         <label htmlFor="title">Title</label>
         <input type="text" id="title" class="u-full-width" />
       </div>
       <div>
-        <label htmlFor="author">Author</label>
-        <input type="text" id="author" class="u-full-width" />
+        <label htmlFor="artist">Artist</label>
+        <input type="text" id="artist" class="u-full-width" />
       </div>
       <div>
-        <label htmlFor="isbn">ISBN#</label>
-        <input type="text" id="isbn" class="u-full-width" />
+        <label htmlFor="album">Album</label>
+        <input type="text" id="album" class="u-full-width" />
       </div>
       <input type="submit" value="submit" class="u-full-width">
     </form>
@@ -34,12 +34,12 @@
       <thead>
         <tr>
           <th>Title</th>
-          <th>Author</th>
-          <th>ISBN</th>
+          <th>Artist</th>
+          <th>Album</th>
           <th></th>
         </tr>
       </thead>
-      <tbody id="book-list">
+      <tbody id="song-list">
       </tbody>
     </table>
   </div>
